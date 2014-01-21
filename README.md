@@ -1,4 +1,4 @@
 vaadin-sandbox
 ==============
 
-Vaadin sandbox application for prototyping
+Vaadin 7 sandbox application for prototyping
