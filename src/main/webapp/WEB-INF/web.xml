@@ -14,7 +14,7 @@
         <init-param>
             <description>Vaadin UI to display</description>
             <param-name>UI</param-name>
-            <param-value>com.haulmont.vaadin.sample.SampleVaadinUI</param-value>
+            <param-value>com.haulmont.vaadin.sample.TestUI</param-value>
         </init-param>
         <init-param>
             <description>Application widgetset</description>
