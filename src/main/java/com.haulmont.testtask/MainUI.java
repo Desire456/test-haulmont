@@ -1,4 +1,4 @@
-package com.haulmont.vaadin.sample;
+package com.haulmont.testtask;
 
 import com.vaadin.annotations.Theme;
 import com.vaadin.server.VaadinRequest;
