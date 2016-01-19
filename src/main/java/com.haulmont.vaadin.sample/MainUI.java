@@ -6,7 +6,7 @@ import com.vaadin.ui.*;
 import com.vaadin.ui.themes.ValoTheme;
 
 @Theme(ValoTheme.THEME_NAME)
-public class TestUI extends UI {
+public class MainUI extends UI {
 
     @Override
     protected void init(VaadinRequest request) {
@@ -14,7 +14,7 @@ public class TestUI extends UI {
         layout.setSizeFull();
         layout.setMargin(true);
 
-        layout.addComponent(new Label("Vaadin 7 Sample"));
+        layout.addComponent(new Label("Main UI"));
 
         setContent(layout);
     }

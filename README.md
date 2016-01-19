@@ -1,4 +1,4 @@
-vaadin-sandbox
+vaadin-sample
 ==============
 
-Vaadin 7 sandbox application for prototyping
+Vaadin 7 sample application for prototyping
