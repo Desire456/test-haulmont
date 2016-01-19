@@ -16,4 +16,4 @@ Build and Run
 	mvn jetty:run
 	```
 
-2. Open http://localhost:8080 in a web browser.
+2. Open `http://localhost:8080` in a web browser.
