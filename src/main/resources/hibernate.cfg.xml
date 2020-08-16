@@ -1,0 +1,20 @@
+<hibernate-configuration>
+
+    <session-factory>
+
+        <property name="connection.driver_class">org.hsqldb.jdbc.JDBCDriver</property>
+        <property name="connection.url">jdbc:hsqldb:file:polyclinic_db/data;shutdown=true</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+
+        <property name="show_sql">true</property>
+
+        <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
+
+        <mapping class="com.haulmont.testtask.domain.Doctor"/>
+        <mapping class="com.haulmont.testtask.domain.Patient"/>
+        <mapping class="com.haulmont.testtask.domain.Recipe"/>
+
+    </session-factory>
+
+</hibernate-configuration>
